@@ -2,6 +2,12 @@
 
  Abstract—When participating in the real-time balancing markets, hydropower producers keep making decisions about how much power they are willing to sell or purchase at what prices from the markets. Due to the specific market character-istics, the decisions should be made quickly, placing high de-mand on the computation time of rescheduling. In this paper, we present a practical method to determine an hourly bidding curve for a plant. It is applicable to both balancing and intra-day markets. We heuristically calculate the marginal cost for all the operating points, covering the entire working area for the plant and including all the physical limitations and re-serve obligations in other markets. Heuristics are proposed to reduce the computation time without neglecting significant practical features. Numerical results based on a real-world case study demonstrate the advantage of the proposed method in terms of computation time and solution quality.
 
+Cite:
+
+
+Here is my nifty citation {cite}`perez2011python`.
+
+- A link to an equation directive: {eq}`eq_1`
 
 Index Terms—Heuristic algorithms, hydroelectric power gen-eration, power generation economics
 
@@ -206,11 +212,12 @@ When participating in the real-time balancing markets, hydropower producers alwa
 The contribution of this paper is to propose a practical method that can assist the producers to trade in the real-time balancing markets. The hourly bidding curve for one plant is put forward on the basis of the marginal cost for the operating points, covering the entire feasible working area for the plant.  It is also demonstrated that the proposed heuristics are computationally efficient. 
 In this paper, when we calculate the average cost and marginal cost for each operating point, we use the constant marginal water value. The gross plant head is obtained from the original production plan. For a hydrological system with significant storage, the discharge variation in a plant within one hour would not lead to considerable difference in marginal water value, and hence, this assumption is acceptable. However, it might cause the problem for small-size reservoirs, in which there is the risk of running out of water within one hour. We also assume that the bids are decoupled in time and do not consider the impact of the change in production plan for one hour on the consecutive hours. These are the issues for further improvement. 
 
-{cite:p}`scharff2016a`
+
+perez2011python
+Here is my nifty citation {cite}`scharff2016a`.
 
 References 
 
 ```{bibliography}
 :style: unsrt
 ```
-
